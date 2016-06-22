@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:stackFromBottom="true"
+        android:src="@drawable/signup_logo"/>
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+
+    <EditText
+        android:id="@+id/etUserID"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="text|none"
+        android:hint="Enter ID"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter e-mail"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="text|phone"
+        android:hint="Phone Number"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+
+    <EditText
+        android:id="@+id/etCheckPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        android:hint="Password Check"
+        android:layout_weight="0.03"
+        android:background="@drawable/edit"/>
+
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e90ff"
+        android:text="register_button"
+        android:textColor="#ffffff"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp"/>
+
+</LinearLayout>

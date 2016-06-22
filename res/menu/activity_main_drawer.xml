@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/information"
+            android:icon="@drawable/user"
+            android:title="약속점수" />
+        <item
+            android:id="@+id/room"
+            android:icon="@drawable/group"
+            android:title="약속방" />
+
+    </group>
+
+</menu>
